@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #c2d6d6;
+   }
+
+
+#i1{
+    float: left;
+    display: block;
+    height:200px;
+     width:200px;
+}
+
+
+ul li{
+    float: right;
+    margin: 0px 25px 0px 25px;
+    color: white;
+}
+.apresentação{
+    background-color: black;
+    overflow:auto;
+    
+}
+
+p{
+    padding: 2px;
+   color: white;
+   float: left;
+
+}
+ol li{
+margin:25px;
+padding:200px;
+overflow:hidden;
+float: left;
+}
+
+.instagram{
+    list-style-image: url("../imagens/Insta-depositphotos-bgremover.png");
+}
+.twitter{
+    list-style-image: url("../imagens/Twitter-depositphotos-bgremover.png");
+}
+.youtube{
+    list-style-image: url("../imagens/Youtube-depositphotos-bgremover.png");
+}
+
+.Princ{
+
+    color: white;
+}
+
+ h1{
+     padding-left: 8%;
+     padding-top: 1%;
+     color: white;
+}
+#log{
+    display: block;
+    float: left;
+}
+.anelP{
+     padding-top: 2%;
+     margin-top: 2%;
+     margin-left: 15%;
+            
+}
+.anelN{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
+        }
+
+.CorrenteP{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 15%;
+
+
+}
+.CorrenteN{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
+
+
+}
+.OculosP{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 15%;
+
+}
+.OculosN{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.RelogioP{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 15%;
+    } 
+.RelogioN{
+        padding-top: 2%;
+        margin-top: 2%;
+        margin-left: 3%;
+
+
+     } 
+    
+     a{
+         text-decoration: none;
+         color: black;
+     }
+    

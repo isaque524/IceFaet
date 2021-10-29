@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js " crossorigin = " anonymous " ></script>
+    <link rel="icon" href="./imagens/gelo.png" type="imagens/png">
+    <title>Login</title>
+    
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color:#120A2A ;
+}
+
+main.container{
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+form h3{
+    text-align: center;
+    color: #5E08C6 ;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+form input[type=text],
+form input[type=password]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #5E08C6 ;
+    padding-left:10px;
+    margin: 10px 0;
+}
+form input[type=submit]{
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    background-color: #5E08C6 ;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+form input[type=text]:focus{
+    outline: 0;
+}
+form input[type=password]:focus{
+    outline: 0;
+}
+form a{
+    padding: 0.9rem;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%,-50%);
+    color: #5E08C6 ;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer .social-field {
+    
+    padding: 0.8rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.footer .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+.footer .social-field a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-field.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+
+.footer .social-field.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+    </style>
+</head>
+<body>
+    <main class="container">
+    
+    <form action="" method="post">
+        <h3>Login</h3>
+        <input  id="usuario"type="text" name="usuario" placeholder="Digite seu Login..."/>
+        <input  id="senha"  type="password" name="senha" placeholder="Digite sua Senha..."/>
+        <input type="submit" value="Login"/>
+        <a href="logi2.html">Cadraste-se</a>
+        
+    </form>
+
+    <div class="footer">
+     
+        <div class="social-field twitter">
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+                Conect-se com o Twitter
+            </a>
+        </div>
+        <div class=" social-field facebook ">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+                Conect-se com o Facebook
+            </a>
+
+        </div>
+
+    </div>
+        
+    </main>
+</body>
+</html>

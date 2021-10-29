@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/gelo.png" type="imagens/png">
+    <title>Cadrastro</title>
+    <style>
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c2d6d6;
+}
+main.container{
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+     
+    </style>
+
+</head>
+<body>
+
+<main class="container">
+    <form action="" method="post">
+        <h3>Cadrastro</h3>
+        <input  type="text" name="nome" placeholder="Digite seu Nome..."/><br>
+        <input  type="text" name="usuario" placeholder="Digite seu Sobrenome..."/><br>
+        <input  type="email" name="email" placeholder="Digite seu Email..."><br>
+        <input  type="text" name="usuario" placeholder="Crie seu Login..."><br>
+        <input  id="senha"  type="password" name="senha" placeholder="Crie sua senha..."/><br>
+        <label for="diaa">Informe a data do seu aniversário:</label>
+        <input type="date" id="diaa" name="diaa"><br>
+        <input type="radio" name="gender" value="M" checked>Masculino<br>
+        <input type="radio" name="gender" value="F">Feminnino<br>
+        <input type="radio" name="gender" value="O">Prefiro não dizer.<br><br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar"/>
+
+       
+    
+    </form>
+    </main>
+</body>
+</html>
